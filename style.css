@@ -1,0 +1,14 @@
+#name-input{
+    width: 250px;
+    height: 38px;
+    border-radius: 0.25rem;
+    padding-bottom: 5px;
+}
+#style{
+    padding-left: 100px;
+}
+.row{
+    padding-top: 25px;
+}
+
+

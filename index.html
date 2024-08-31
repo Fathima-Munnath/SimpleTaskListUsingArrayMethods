@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1 id="style">Simple Task List</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12 col-lg-6 col-sm-6">
+                <input type="text" id="name-input" name="name-input" placeholder="Enter a task">
+                <button id="btn-1" class="btn btn-success" onclick="addTask()">Add Task</button>
+                <button id="btn-2" class="btn btn-danger" onclick="removeTask()">Remove Task</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-xs-12 col-lg-6 col-sm-6">
+                <ol id="ol-Tasks" class="ol"></ol>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
